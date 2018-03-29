@@ -30,7 +30,7 @@ LD = $(CC)
 LDXX = $(CXX)
 ASM ?= $(CC)
 
-WARNFLAGS = -pedantic -Wall -Wextra -Werror -Wunreachable-code \
+WARNFLAGS = -pedantic -Wall -Wextra -Wunreachable-code \
 	 -Wmissing-declarations -Wunused-function -Wno-overlength-strings $(EXWARN)
 
 INCFLAGS = -Isrc/include -I$(BUILD_INC) -I$(BUILD_H)
